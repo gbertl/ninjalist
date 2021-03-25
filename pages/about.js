@@ -1,13 +1,7 @@
-import Head from "next/head";
-import Footer from "../comps/Footer";
-import Navbar from "../comps/Navbar";
-import styles from "../styles/Home.module.css";
-
-export default function Home() {
+function about() {
   return (
     <div>
-      <Navbar />
-      <h1>Homepage</h1>
+      <h1>About</h1>
       <p>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
@@ -22,7 +16,8 @@ export default function Home() {
         clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
         amet.
       </p>
-      <Footer />
     </div>
   );
 }
+
+export default about;
