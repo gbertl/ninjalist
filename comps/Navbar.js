@@ -5,7 +5,11 @@ function Navbar() {
   return (
     <nav>
       <div className="logo">
-        <Image src="/logo.png" width={128} height={77} />
+        <Link href="/">
+          <a style={{marginLeft: 0}}>
+            <Image src="/logo.png" width={128} height={77} />
+          </a>
+        </Link>
       </div>
       <Link href="/">
         <a>Home</a>
